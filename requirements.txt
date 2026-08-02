@@ -1,0 +1,17 @@
+python-dotenv
+langchain
+langchain-core
+langchain-groq
+langchain-tavily
+langgraph
+pypdf
+docx2txt
+google-api-python-client
+streamlit
+langchain_chroma
+langchain-community
+langchain-huggingface
+sentence-transformers
+langgraph-checkpoint-sqlite
+edge-tts
+langchain-cerebras
