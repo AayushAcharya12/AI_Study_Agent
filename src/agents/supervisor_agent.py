@@ -5,7 +5,7 @@ from src.prompts import SUPERVISOR_PROMPT
 from tools_used import llm
 
 #Creating supervisor agent
-supervisor_agent=create_supervisor([exam_intelligent_agent,research_agent,reteriver_agent,tutor_agent,visual_learning_agent,youtube_agent],prompt=SUPERVISOR_PROMPT,model=llm)
+supervisor_agent_workflow=create_supervisor(agents=[exam_intelligent_agent,research_agent,reteriver_agent,tutor_agent,visual_learning_agent,youtube_agent],prompt=SUPERVISOR_PROMPT,model=llm)
 
 #Compiling before invoking
-supervisor_agent = supervisor_workflow.compile()
+supervisor_agent = supervisor_agent_workflow.compile()
